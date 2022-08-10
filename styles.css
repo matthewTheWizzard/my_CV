@@ -354,7 +354,7 @@ h2::before{
 }
 
 .school {
-    background: url('/img/rs_school_js.svg') #e0e1dd;
+    background: url('./img/rs_school_js.svg') #e0e1dd;
     background-repeat: no-repeat;
     background-size: 100%;
     width:75px;
@@ -365,7 +365,7 @@ h2::before{
 }
 
 .school:hover{
-    background: url('/img/rs_school_js.svg') var(--light-blue);
+    background: url('./img/rs_school_js.svg') var(--light-blue);
     border: solid 3px var(--light-blue);
     transition: all 0.3s;
 }
